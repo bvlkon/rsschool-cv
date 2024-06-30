@@ -1,5 +1,4 @@
 # Petrova Maria
-************************
 
 ## Contacts
 
@@ -11,13 +10,13 @@
 ## About Myself
 
 I just started my journey in learning to become a web developer. My goal is to become a professional in this field. I am currently a 3rd year college student majoring in information systems. I recently entered School 21 (programming school).
-************************
+
 ## Skills
 
 * C
 * Git
 * VSCode
-************************
+
 ## Code example
 An example of implementing a function from a "string.h" library in C language:
 
@@ -33,9 +32,8 @@ An example of implementing a function from a "string.h" library in C language:
   return res;
   }
   ```
-************************
+
 
 ## Languages:
 * English - Beginnerµ
 * Russian - Native 
-************************
