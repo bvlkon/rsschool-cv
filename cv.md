@@ -35,5 +35,5 @@ An example of implementing a function from a "string.h" library in C language:
 
 
 ## Languages:
-* English - Beginnerµ
+* English - Beginner
 * Russian - Native 
