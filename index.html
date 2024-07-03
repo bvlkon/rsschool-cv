@@ -6,22 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header class="header">
-        <h1>Petrova Maria</h1>
-        <h2>Student Web Developer</h2>
-        <img alt="Photo" width="250px" src="assets/img/my_photo.png">
+        <div class="header-wrapper">
+            <nav class="navigation">
+                <ul class="navigation-menu">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code Example</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#language">Language</a></li>
+                </ul>
+        </div>
+        </nav>
     </header>
-    <main>
-        <p> I just started my journey in learning to become a web developer. My goal is to become a professional in this
-            field. I have been self-studying programming languages such as HTML, CSS, JavaScript, and C to build my skills.
-            I am eager to gain practical experience and apply my knowledge in a real-world setting. I am a quick
-            learner, detail-oriented, and have a strong passion for technology. </p>
+    <main class="main">
+        <div class="main-wrapper">
+            <section class="block-about"></section>
+            <img alt="Photo" width="250" src="assets/img/my_photo.png">
+            <h1>Petrova Maria</h1>
+            <h2>Student Web Developer</h2>
+            <h3 class="title-menu"> About Me</h3>
+            <p> I just started my journey in learning to become a web developer. My goal is to become a professional in
+                this
+                field. I have been self-studying programming languages such as HTML, CSS, JavaScript, and C to build my
+                skills.
+                I am eager to gain practical experience and apply my knowledge in a real-world setting. I am a quick
+                learner, detail-oriented, and have a strong passion for technology. </p>
+            </section>
+            <article class="block">
+                <h3 class="block-title">Contact</h3>
+                <ul class="blok-list">
+                    <li class="block-item-contact">
+                        Location: Moscow, Russia
+                    </li>
+                    <li class="block-item-contact">
+                        E-mail: <a href="mailto:balkon68@gmail.com">balkon68@gmail.com</a>
+                    </li>
+                    <li class="block-item-contact">
+                        Telegram: <a href="https://t.me/bvlkon">@bvlkon</a>
+                    </li>
+                    <li class="block-item-contact">
+                        Github: <a href="https://github.com/bvlkon">bvlkon</a>
+                    </li>
+                    </li>
+            </article>
+            <article>
+                <h3 class="block-title">Skills</h3>
+                <ul class="blok-list">
+                    <li class="block-item-skill">
+                        C
+                    </li>
+                    <li class="block-item-skill">
+                        Git
+                    </li>
+                    <li class="block-item-skill">
+                        VSCode
+                    </li>
+                </ul>
+            </article>
+            <article class="block">
+                <h3 class="block-title">Code Example</h3>
+                <pre>
+                    <code class="code">
+                        void *to_upper(const char *str) {
+                            size_t len = strlen(str);
+                            char *res = (char *)malloc(len + 1);
+                          
+                            if (str == NULL) {
+                              res = NULL;
+                            } else {
+                              for (size_t i = 0; i <= len; i++) {
+                                if (str[i] >= 97 && str[i] <= 123) {
+                                  res[i] = str[i] - 32;
+                                } else {
+                                  res[i] = str[i];
+                                }
+                              }
+                            }
+                            return res;
+                          }
+                        </code>
+                </pre>
+            </article>
+
+
+
+            </article>
+
+
     </main>
     <footer class="footer">
+        <a href="https://rs.school/courses/javascript-ru"><img alt="RsFavicon" width="60"
+                src="assets/img/favicon.png"></a>
+        <a href="https://github.com/bvlkon"><img alt="GithubLogo" width="60" src="assets/img/github.ico"></a>
+        <p>2024</p>
+
     </footer>
 </body>
 
