@@ -6,3 +6,26 @@
     font-family: Krub-ExtraLight;
     src: url("assets/fonts/Krub-ExtraLight.ttf");
  }
+ * {
+    box-sizing: border-box;
+    border: 1px solid red;
+  }
+  body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+h1{
+   font-family: ChakraPetch-Light;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+   font-family: ChakraPetch-Light;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
