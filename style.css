@@ -8,24 +8,19 @@
  }
  * {
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 1px solid rgb(18, 238, 51);
   }
   body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
  }
-h1{
-   font-family: ChakraPetch-Light;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-h2{
-   font-family: ChakraPetch-Light;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+.container {
+   max-width: 1440px;
+   margin: 0 auto;
+ }
+ .nav-list {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+ }
