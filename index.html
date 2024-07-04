@@ -28,7 +28,7 @@
     </header>
     <main class="main">
         <div class="main-cask">
-            <section class="block-about"></section>
+            <section class="block-about">
             <h1>Petrova Maria</h1>
             <h2>Student Web Developer</h2>
             <h3 class="title-menu"> About Me</h3>
@@ -39,7 +39,7 @@
                 I am eager to gain practical experience and apply my knowledge in a real-world setting. I am a quick
                 learner, detail-oriented, and have a strong passion for technology. </p>
             </section>
-            <article class="block">
+            <section class="block">
                 <h3 class="block-title">Contact</h3>
                 <ul class="blok-list">
                     <li class="block-item-contact">
@@ -55,8 +55,9 @@
                         Github: <a href="https://github.com/bvlkon">bvlkon</a>
                     </li>
                     </li>
-            </article>
-            <article>
+                </ul>
+            </section>
+            <section>
                 <h3 class="block-title">Skills</h3>
                 <ul class="blok-list">
                     <li class="block-item-skill">
@@ -69,8 +70,8 @@
                         VSCode
                     </li>
                 </ul>
-            </article>
-            <article class="block">
+            </section>
+            <section class="block">
                 <h3 class="block-title">Code Example</h3>
                 <pre>
                     <code class="code">
@@ -81,8 +82,8 @@
                             if (str == NULL) {
                               res = NULL;
                             } else {
-                              for (size_t i = 0; i <= len; i++) {
-                                if (str[i] >= 97 && str[i] <= 123) {
+                              for (size_t i = 0; i &lt;= len; i++) {
+                                if (str[i] &lt;= 97 &amp;&amp; str[i] &lt;= 123) {
                                   res[i] = str[i] - 32;
                                 } else {
                                   res[i] = str[i];
@@ -93,47 +94,46 @@
                           }
                         </code>
                 </pre>
-            </article>
-            <article class="block">
+            </section>
+            <section class="block">
                 <h3 class="block-title">Projects</h3>
                 <ul class="blok-list">
                     <li class="block-item-project">
                         <a href="https://github.com/bvlkon/cv">CV</a>
-                        </li>
-                        <li class="block-item-project">
-                            <a href="https://github.com/bvlkon/game-of-life/tree/main">Console Game of Life С</a>
-                            </li>
+                    </li>
+                    <li class="block-item-project">
+                        <a href="https://github.com/bvlkon/game-of-life/tree/main">Console Game of Life С</a>
+                    </li>
                 </ul>
-            </article>
-            <article class="block">
+            </section>
+            <section class="block">
                 <h3 class="block-title">Education</h3>
                 <ul class="blok-list">
                     <li class="block-item-education">
                         The First Moscow Educational Complex - 3rd year
-                        </li>
-                        <li class="block-item-education">
+                    </li>
+                    <li class="block-item-education">
                         Programming School 21
-                        </li>
-                        <li class="block-item-education">
-                            Rolling Scopes School
-                            </li>
+                    </li>
+                    <li class="block-item-education">
+                        Rolling Scopes School
+                    </li>
                 </ul>
-            </article>
-            <article class="block">
+            </section>
+            <section class="block">
                 <h3 class="block-title">Language</h3>
                 <ul class="blok-list">
                     <li class="block-item-language">
                         English - Begginer
                     </li>
                     <li class="block-item-language">
-                        Russian  - Native
+                        Russian - Native
                     </li>
-
                 </ul>
+            </section>
     </main>
     <footer class="footer">
-        <a href="https://rs.school/courses/javascript-ru"><img alt="RsFavicon" width="60"
-                src="assets/img/favicon.png"></a>
+        <a href="https://rs.school/courses/javascript-ru"><img alt="RsIcon" width="60" src="assets/img/favicon.png"></a>
         <a href="https://github.com/bvlkon"><img alt="GithubLogo" width="60" src="assets/img/github.ico"></a>
         <p>2024</p>
     </footer>
