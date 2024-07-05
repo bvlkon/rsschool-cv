@@ -9,20 +9,18 @@
  * {
     box-sizing: border-box;
   }
-  html, body {
-   width: 100%;
-   margin: 0 auto;
- }
 
- .container {
+  body{
    max-width: 1440px;
-   margin: 0 auto;
-   min-height: 50px;
+   margin: auto;
 }
- .header{
+html{
+   scroll-behavior: smooth;
+ }
+.header{
    background-color: rgb(168, 211, 248);
 }
- .nav-list{
+.nav-list{
    display: flex;
    justify-content: flex-end;
    align-items: center;
@@ -32,17 +30,12 @@
    list-style: none;
 }
 .nav-link {
-   position: relative;
    transition: 0.3s;
    text-decoration: none;
-   padding: 20px;
- }
-
- html{
-   scroll-behavior: smooth;
+   padding: 0 20px;
  }
  .section-item a {
-   color:rgb(38, 114, 246);
+   color:rgb(5, 54, 139);
    text-decoration: none;
    transition: color 0.5s;
  }
@@ -51,39 +44,27 @@
  }
  .main-container {
    display: flex;
-   flex-wrap: wrap;
-   
+   flex-wrap: wrap; 
  }
  .section {
    width: 50%;
  }
- @media (max-width: 1480px) {
-   .container {
-       margin: 0 20px;
-   }
-}
-@media (max-width: 1090px) {
-   .main-container {
-       justify-content: center;
-       flex-wrap: wrap;
-   }
-}
  .section-title {
    font-family: ChakraPetch-Light;
    font-size: 30px;
-   color: rgb(2, 90, 128);
+   color: rgb(52, 149, 195);
  }
  .section-item{
    font-family: Krub-ExtraLight;
    font-size: 20px;
    font-weight: 600;
-   color: rgb(2, 90, 128);
+   color: rgb(5, 9, 10);
  }
 
  .summary{
    font-family: Krub-ExtraLight;
    font-size: 20px;
-   color: rgb(2, 90, 128);
+   color: rgb(0, 4, 5);
    padding: 20px;
  }
  .name-title{
@@ -98,7 +79,6 @@
  }
  .footer {
    background-color: rgb(168, 211, 248);
-   padding: 20px;  
  }
  .footer-container{
    display: flex;
@@ -108,6 +88,7 @@
   background-color: rgb(168, 211, 248);
   font-family: ChakraPetch-Light;
    font-size: 20px;
+   padding:  0 20px;
  }
  .code{
 font-family: ChakraPetch-Light;
