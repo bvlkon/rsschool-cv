@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#language" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main-container">
+            <section class="section" id="profile">
+                <img alt="Photo" width="250" src="./assets/img/my_photo.png">
+                <h1 class="name-title">Petrova Maria</h1>
+                <h2 class="prof-title">Student Web Developer</h2> 
+            </section>
+
+            <section class="section" id="about">
+            <h2 class="section-title"> About Me</h2>
+            <p class="summary"> I just started my journey in learning to become a web developer. My goal is to become a professional in
+                this
+                field. I have been self-studying programming languages such as HTML, CSS, JavaScript, and C to build my
+                skills.
+                I am eager to gain practical experience and apply my knowledge in a real-world setting. I am a quick
+                learner, detail-oriented, and have a strong passion for technology. </p>
+            </section>
+
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        Location: Moscow, Russia
+                    </li>
+                    <li class="section-item">
+                        E-mail: <a href="mailto:balkon68@gmail.com">balkon68@gmail.com</a>
+                    </li>
+                    <li class="section-item">
+                        Telegram: <a href="https://t.me/bvlkon">@bvlkon</a>
+                    </li>
+                    <li class="section-item">
+                        Github: <a href="https://github.com/bvlkon">bvlkon</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        C
+                    </li>
+                    <li class="section-item">
+                        Git
+                    </li>
+                    <li class="section-item">
+                        VSCode
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code Example</h2>
+                <pre>
+                    <code class="code">
+                        void *to_upper(const char *str) {
+                            size_t len = strlen(str);
+                            char *res = (char *)malloc(len + 1);
+                          
+                            if (str == NULL) {
+                              res = NULL;
+                            } else {
+                              for (size_t i = 0; i &lt;= len; i++) {
+                                if (str[i] &lt;= 97 &amp;&amp; str[i] &lt;= 123) {
+                                  res[i] = str[i] - 32;
+                                } else {
+                                  res[i] = str[i];
+                                }
+                              }
+                            }
+                            return res;
+                          }
+                        </code>
+                </pre>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        <a href="https://bvlkon.github.io/rsschool-cv/">CV</a>
+                    </li>
+                    <li class="section-item">
+                        <a href="https://github.com/bvlkon/game-of-life/tree/main">Console Game of Life C</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        The First Moscow Educational Complex - 3rd year
+                    </li>
+                    <li class="section-item">
+                        Programming School 21
+                    </li>
+                    <li class="section-item">
+                        Rolling Scopes School
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section" id="language">
+                <h2 class="section-title">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-item">
+                        English - Begginer
+                    </li>
+                    <li class="section-item">
+                        Russian - Native
+                    </li>
+                </ul>
+            </section>
+            </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+        <a href="https://rs.school/courses/javascript-ru"><img alt="RsIcon" width="80" src="./assets/img/rsschool-logo.svg"></a>
+        <a href="https://github.com/bvlkon"><img alt="GithubLogo" width="80" src="./assets/img/github.svg"></a>
+        <p>2024</p>
+        </div>
+    </footer>
+</body>
+
+</html>
